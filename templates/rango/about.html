@@ -1,0 +1,25 @@
+{% extends 'rango/base.html' %}
+{% load staticfiles %}
+
+
+
+{% block body_block %}
+
+<h1>This website helps to look at the views of different categories</h1>
+<img src="{% static "images/AboutUs.jpg" %}">
+
+<h3>Authors are <h4><b>{{ name }}</b></h4></h3>
+{% endblock %}
+
+
+
+{% block side_block %}
+<div>Side block</div>
+<div ng-app = "Myapp">
+
+      <div ng-controller = "HelloController" >
+         <h2>Welcome {[{helloTo.title}]} to the world of Tutorialspoint!</h2>
+      </div>
+
+   </div>
+{% endblock %}

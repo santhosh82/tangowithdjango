@@ -1,0 +1,15 @@
+scanner sc  = new scanner(System.in);
+
+temp = ""
+for persons in p:
+	temp = temp +","
+	
+	
+Also it is good to know about your status before changing the status
+
+We can add a little more functionality to it.
+liking grocery list  some thing else
+
+create an html page whihc displays the people whether they are in the house or not
+
+
